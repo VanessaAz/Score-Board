@@ -74,3 +74,10 @@ button:hover {
     background: #222;
     color: lightblue;
 }
+
+@media (max-width: 575px){
+    .box-container {
+        width:100%
+    }
+}
+    
