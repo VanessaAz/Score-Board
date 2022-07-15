@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-container {
+    border: 2px solid lightblue;
+    padding: 1em;
+    margin: 2em auto;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+.score {
+    width: 110px;
+    height: 80px;
+    background: lightblue;
+    color: #222;
+    font-weight: bold;
+    line-height: 80px;
+    vertical-align: middle; 
+    text-align: center;
+    font-size: 50px; 
+    box-shadow: 2px 2px #555;
+}
+
+.scr-btn {
+    width: 30%;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    background: #333;
+    color: white; 
+    cursor: pointer;  
+}
+
+button:hover {
+    background: lightblue;
+    color: #333;
+    font-weight: bold;
+}
+
+#new-game {
+    padding: 10px 15px;
+    display: block;
+    margin: 40px auto;
+    background: lightblue;
+    color: #222;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+#new-game:hover {
+    background: #222;
+    color: lightblue;
+}
