@@ -19,13 +19,18 @@ body {
     
 }
 
+.scoreboard-container {
+    width: 50%;
+    
+}
+
 .title{
     color: white;
     text-align: center;
 }
 
 .score {
-    width: 110px;
+    width: 100%;
     height: 80px;
     background: lightblue;
     color: #222;
